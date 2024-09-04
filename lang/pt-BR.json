@@ -1,0 +1,377 @@
+{
+    "PF2EBestiary": {
+        "Name": "Bestiary Tracker",
+        "KeyBindings": {
+            "OpenBestiary": {
+                "Name": "Abrir o Bestiário",
+                "Hint": "Abre o Bestiário"
+            },
+            "ShowMonster": {
+                "Name": "Mostrar este monstro",
+                "Hint": "Abre o bestiário sobre a criatura selecionada ou escolhida como alvo no momento"
+            },
+            "AddMonster": {
+                "Name": "Adicionar monstro",
+                "Hint": "Adiciona a a criatura selecionada ou escolhida como alvo no momento"
+            }
+        },
+        "SavesHandler": {
+            "Name": "Espaços de Armazenamento do Bestiário",
+            "SaveDirectory": "Diretório de Armazenamento",
+            "LoadTitle": "Carregar Espaço de Armazenamento",
+            "FilePickerPlaceholder": "Por favor escolha uma das opções",
+            "CreateNewSave": "Criar novo espaço de Armazenamento",
+            "SaveSlotName": "Nome do Espaço de Armazenamento",
+            "SaveSlotImage": "Imagem do Espaço de Armazenamento",
+            "SaveSlotsTitle": "Espaços de Armazenamento",
+            "SaveOutOfDate": "A sua gravação expirou! Considere salvar novamente.",
+            "SaveText": "Salvar",
+            "LoadText": "Você tem certeza que deseja carregar este espaço de armazenamento? Qualquer informação não salva no bestiário atual será perdida!",
+            "Errors": "Erros",
+                "NeedName": "O novo espaço de armazenamento precisa de um nome."
+            }
+        },
+        "Miscellaneous": {
+            "Name": "Nome",
+            "Level": "Nível",
+            "AC": "CA",
+            "HP": "PV",
+            "Immunities": "Imunidades",
+            "None": "Nenhum",
+            "Weaknesses": "Fraquezas",
+            "Weakness": "Fraqueza",
+            "Resistances": "Resistências",
+            "Resistance": "Resistência",
+            "Saves": {
+                "Title": "Salvamentos",
+                "Fortitude": {
+                    "Short": "Fort"
+                },
+                "Reflex": "Reflexos",
+                    "Short": "Reflex"
+                },
+                "Will": "Vontade",
+                    "Short": "Vont"
+                }
+            },
+            "Speeds": "Velocidades",
+            "Attributes": "Modificadores de Atributo",
+            "Perception": "Percepção",
+            "Senses": "Sentidos",
+            "Attacks": "Ataques",
+            "Languages": "Idiomas",
+            "Skills": "Perícias",
+            "Abilities": "Habilidades",
+            "Passives": "Passivas",
+            "Save": "Savamento",
+            "Except": "exceto",
+            "Double": "dobro",
+            "Or": "ou",
+            "NPC": "PnJ",
+            "Add": "Adicionar"
+        },
+        "Bestiary": {
+            "Title": "Bestiário",
+            "WindowControls": {
+                "RefreshBestiary": "Atualizar o Bestiário",
+                "SaveSlots": "Espaços de Armazenamento de Dados",
+                "ResetBestiary": "Redefinir o Bestiário",
+                "RevealAll": "Revealar Criatura",
+                "HideAll": "Ocultar Creature"
+            },
+            "Category": {
+                "Creatures": "Creaturas",
+                "NPC": "Galeria de PnJs",
+                "Hazards": "Perigos"
+            },
+            "Welcome": {
+                "Greeting": "Seja Bem-Vindo(a) ao Bestiário!",
+                "PlayersSection": {
+                    "Title": "Para Jogadores",
+                    "NavigationTip": "Navegue entre diferentes tipos de criaturas usando os marcadores a esquerda.",
+                    "MacroTip": "Verifique o compêndio do módulo e adicione macros úteis à sua hotbar."
+                },
+                "GMsSection": {
+                    "Title": "Para Mestres",
+                    "AddCreaturesTip": "Adicione novas criaturas encontradas pelos jogadores ao arrastá-las para o bestiário.",
+                    "ModuleSettingsTip": "Personalize o comportamento do módulo e a forma como as informações são mostradas nas configurações do módulo.",
+                    "ToggleInformationTip": "Ative informações conhecidas sobre espécimes de monstros à medida que jogadores aprendem cada informação.",
+                    "ToggleMisinformationTip": "Insira desiformação sobre um campo. É possível inserir ou remover informações falsas igualmente."
+                }
+            },
+            "ReturnMessages": {
+                "ReturnToCategory": "Retornar à página da categoria",
+                "ReturnToWelcome": "Retornar à página principal"
+            },
+            "CategoryView": {
+                "EmptyText": "Nenhuuma criatura {category} foi encontrada. Aproveite enquanto você pode.",
+                "UnknownText": "Perigos desconhecidos estão sempre a espreita..",
+                "EmptyCategoryText": "Você ainda não encontrou ninguem que se encaixe nesta classificação",
+                "UnaffiliatedText": "Você não conhece nenhum personagem sem filiações.."
+            },
+            "Miscellaneous": {
+                "UnknownCreature": "Criatura Desconhecida",
+                "Unknown": "Desconhecido",
+                "Unaffiliated": "Sem FIliações",
+                "CategoryPlaceholder": "Adicione categorias de afiliação ao PnJ",
+                "LeftClick": "Botão Esquerdo do Mouse",
+                "RightClick": "Botão Direito do Mouse"
+            },
+            "Tabs": {
+                "Statistics": "Estatíticas",
+                "Spells": "Magias",
+                "Lore": "Saber",
+                "Notes": "Anotações"
+            },
+            "NPCTabs": {
+                "General": "Geral",
+                "Influence": "Influência"
+            },
+            "NPC": {
+                "NPCCategoryDescription": "PnJs são distribuidos em categorias criadas pelo mestre. Você pode adicionar uma delas abaixo. Ou remover categorias ao clicar com o botão direito nos marcadores.",
+                "NewCategory": "Nova Categoria de PnJ",
+                "NPCViewText": "Visão do PnJ",
+                "EditModeText": "Ativar Modo de Edição",
+                "Dispositions": "Disposições",
+                "Height": "Altura",
+                "Weight": "Peso",
+                "Personality": "Personalidade",
+                "Appearance": "Aparência",
+                "Background": "Antecedentes",
+                "Disposition": {
+                    "Helpful": "Prestativo",
+                    "Friendly": "Amigável",
+                    "Indifferent": "Indiferente",
+                    "Unfriendly": "Inamistoso",
+                    "Hostile": "Hostil"
+                }
+            },
+            "Lore": {
+                "Public": "Descrição",
+                "Private": "Anotações Privadas"
+            },
+            "PlayerNotes": {
+                "Title": "Anotações dos Jogadores"
+            },
+            "Misinformation": {
+                "AddMisinformation": "Adicionar Desinformação",
+                "Dialog": {
+                    "Title": "Selecionar Desinformação",
+                    "SelectLabel": "Falso {property}",
+                    "Traitlabel": "Traços",
+                    "Attack": {
+                        "Range": "Alcance",
+                        "Actions": "Ações",
+                        "Damage": "Dano"
+                    },
+                    "Ability": {
+                        "Description": "Descrição"
+                    },
+                    "Errors": {
+                        "RequiredFields": "Campos obrigatórios não preenchidos: {fields}"
+                    }
+                }
+            },
+            "UnlinkedDialog": {
+                "Title": "Manipulação de Criação Desvinculada",
+                "Content": "A criatura atual não possui um ator no mundo. Você gostaria de criar um para ela?"
+            },
+            "Errors": {
+                "UnsupportedType": "O Tipo do PnJ não é suportado!",
+                "UnsupportedCharacterType": "Personagens de Jogador(PJs) não têm suporte no bestiário.",
+                "DataMissing": "Alguns dados estão em falta. Você terá que reimportar a criatura. Sinto muito!"
+            },
+            "Info": {
+                "GMOnly": "Esta é uma função diponível apenas ao mestre.",
+                "AddedToBestiary": "[{creatures}] foram adicionados ao Bestiário",
+                "AlreadyExistsInBestiary": "[{creatures}] já existem no Bestiário."
+            }
+        },
+        "Menus": {
+            "Title": "Bestiary Tracking",
+            "Data": {
+                "Name": "Dados do Bestiário",
+                "Hint": "Dados de monstro do Bestiário."
+            },
+            "VagueDescriptions": {
+                "Name": "Descrições Vagas",
+                "Hint": "Assinale quais atributos do monstro devem ser exibidos usando Alto/Médio/Baixo em vez de valores exatos.",
+                "Menu": {
+                    "Name": "Descrições Vagas",
+                    "Label": "Configurações de Descrições Vagas",
+                    "Hint": "Assinale onde as propriedades do monstro devem ser vagas",
+                    "Options": {
+                        "AC": "CA",
+                        "HP": "PV",
+                        "Immunities": "Imunidades",
+                        "Resistances": "Resistências",
+                        "Weaknesses": "Fraquesas",
+                        "Saves": "Salvamentos",
+                        "Perception": "Percepção",
+                        "Speed": "Velocidades",
+                        "Attributes": "Atributos",
+                        "Skills": "Perícias",
+                        "Spells": "Magias",
+                        "Attacks": "Ataques",
+                        "Damage": "Dano",
+                        "PlayerBased": "Descrições Básicas Para o Nível do Jogador",
+                        "MisinformationOptions": "Categorias Vagas de Desinformação"
+                    },
+                    "Sections": {
+                        "Properties": {
+                            "Title": "Propriedades Vagas"
+                        },
+                        "Settings": {
+                            "Title": "Configurações"
+                        }
+                    }
+                }
+            },
+            "BestiaryLabels": {
+                "Name": "Etiquetas de Bestiário",
+                "Hint": "Troque as etiquetas usadas no bestiário por outras personalizadas",
+                "Menu": {
+                    "Name": "Etiquetas de Bestiário",
+                    "Label": "Configurações de Etiquetas de Bestiário",
+                    "Hint": "Personalize as etiquetas usadas no Bestiário"
+                },
+                "VagueDescriptions": {
+                    "Name": "Descrições Vagas",
+                    "FullOptions": {
+                        "Extreme": "Extremo",
+                        "High": "Alto",
+                        "Moderate": "Moderado",
+                        "Low": "Baixo",
+                        "Terrible": "Péssimo"
+                    },
+                    "ShortOptions": {
+                        "Extreme": "Ex",
+                        "High": "Alto",
+                        "Moderate": "Mod",
+                        "Low": "Baixo",
+                        "Terrible": "Péss"
+                    }
+                }
+            },
+            "BestiaryAppearance": {
+                "Name": "Aparência do Bestiário",
+                "Hint": "Personalize a aparência do Bestiário",
+                "Menu": {
+                    "Name": "Aparência do Bestiário",
+                    "Label": "Configurações de Aparência do Bestiário",
+                    "Hint": "Personalize a aparência e os campos usados no Bestiário"
+                },
+                "UseTokenArt": "Usar a arte do token",
+                "HideAbilityDescriptions": "Ocultar a descrição das habilidades",
+                "ContrastRevealedState": {
+                    "Name": "Dar Contraste ao Revelado",
+                    "Enabled": "Ativado",
+                    "Revealed": "Revelado",
+                    "Hidden": "Oculto"
+                },
+                "OptionalFields": {
+                    "Name": "Campos Opcionais",
+                    "Level": "Nível da Criatura",
+                    "Languages": "Idiomas Conhecidos",
+                    "Height": "Altura",
+                    "Weight": "Peso"
+                },
+                "DetailedInformation": {
+                    "Name": "Botões de Informações Detalhadas",
+                    "ExceptionsDoubleVs": "(IWR) Exceções e Dobro",
+                    "AttackTraits": "Traços de Ataque",
+                    "DamageTypes": "Tipos de Dano",
+                    "AbilityTraits": "Traços das Habilidades"
+                },
+                "AdditionalCreatureTypes": {
+                    "Name": "Tipos de Criatura Adicionais",
+                    "SubText": "Você pode escolher adicionar mais traços de criatura disponíveis nas Configurações do SIstema PF2E em Material Caseiro."
+                }
+            },
+            "BestiaryIntegration": {
+                "Name": "Integração ao Bestiário",
+                "Menu": {
+                    "Name": "Integração ao Bestiário",
+                    "Label": "Configurações de Integração ao Bestiário",
+                    "Hint": "Personalize a maneira como você interage com o Bestiário"
+                },
+                "CreatureRegistration": {
+                    "Name": "Registro de Criaturas"
+                },
+                "AutomaticRevealing": {
+                    "Name": "Revelação Automática",
+                    "Saves": "Salvamentos",
+                    "Skills": "Perícias",
+                    "Attacks": "Ataques",
+                    "Actions": "Ações",
+                    "Spells": "Magias"
+                },
+                "HiddenSettings": {
+                    "Name": "Configurações Ocultas",
+                    "Monster": "Monstro",
+                    "NPC": "PnJ",
+                    "Hazard": "Perigo"
+                }
+            }
+        },
+        "Settings": {
+            "Version": {
+                "Name": "Versão",
+                "Hint": "A Versão do Módulo"
+            },
+            "AutomaticCombatRegistration": {
+                "Name": "Registro de Combate",
+                "Hint": "Automaticamente adiciona novos inimigos ao Bestiário durante o estágio selecionado do combate.",
+                "Choices": "Opções",
+                    "Never": "Nunca",
+                    "StartOfCombat": "Ao Começo do Combate",
+                    "CreatureDefeated": "Ao Derrotar a Criatura"
+                }
+            },
+            "NPCRegistation": {
+                "Name": "Registro de PnJs",
+                "Hint": "Selecione a maneira na qual os PnJs serão reconhecidos pelo Bestiário",
+                "Choices": "Opções",
+                    "Unique": "Pela sua raridade Única",
+                    "Tag": "Pelo Ròtulo de PnJ"
+                }
+            },
+            "HideTokenNames": {
+                "Name": "Mistificar os Nomes dos Tokens",
+                "Hint": "Atribui nomes aos tokens com base no seu estado no bestiário para não revelar informações."
+            },
+            "AutomaticallyOpenMonster": {
+                "Name": "Abrir Registro do Bestiário Automaticamente",
+                "Hint": "Abre de forma automática o registro de monstro que forem adicionados ao Bestiário."   
+            }, 
+            "DoubleClickOpen": {
+                "Name": "abrir com Clique Duplo",
+                "Hint": "Abre o registro de uma criatura no bestiário ao usar clique duplo(+ ALT para o mestre) nela. Com esta configuração ativa, todas as criaturas no Bestiário recebem a Propriedade de posse de nível 'Limitado' para os jogadores. (Requer o móulo LibWrapper)"
+            },
+            "ContrastRevealState": {
+                "Name": "Revelar Estado de Contraste",
+                "Hint": "Opção para mestres acessarem campos ocultos/revelados com cores de contraste"
+            }
+        },
+        "Macros": {
+            "ShowMonster": {
+                "NoTarget": "Sem monstros selecionados ou definidos como alvos.",
+                "NoActor": "A criatura não possui um ator neste mundo ou está desvinculada no Bestiário.",
+                "InvalidTarget": "A criatura alvo deve ser um PnJ!",
+                "TargetNotInBestiary": "Esse monstro ainda não foi adicionado ao bestiário!"
+            },
+            "AddMonster": {
+                "GMOnly": "Esta macro só pode ser usada pelo mestre.",
+                "TargetAlreadyInBestiary": "Esta criatura já está presente no bestiário!"
+            },
+            "ResetBestiary": {
+                "Title": "Redefinir o Bestiário",
+                "Text": "Isto removerá todas as informações e dados do bestiário atual. Você tem certeza que quer fazer isso?"
+            }
+        },
+        "Interactivity": {
+            "RevealAbility": "Revelar Habilidade no Bestiário",
+            "RegisterInBestiary": "Adicionar ao Bestiário"
+        }
+    }
+}
